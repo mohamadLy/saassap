@@ -36,6 +36,13 @@ h1, h2, h3 {
 .navbar {
     border: none;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    &:hover, &:focus {
+        color: white;
+    }
+}
 // home page style
 .home-callout {
     margin-top: -20px;
